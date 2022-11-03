@@ -525,6 +525,8 @@ padding: 50px 0;
 display: flex;
 
 justify-content: space-between;
+
+margin-bottom: 35px;
 }
 .feature_item{
 
@@ -534,9 +536,9 @@ text-align: center;
 }
 .icon_box{
 
-width: 60px;
+width: 70px;
 
-height: 60px;
+height: 70px;
 
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+50,5fc3ff+100 */
 background: #48baff; /* Old browsers */
@@ -544,7 +546,6 @@ background: -moz-linear-gradient(left,  #48baff 0%, #48baff 50%, #5fc3ff 50%, #5
 background: -webkit-linear-gradient(left,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
-
 
 margin: auto;
 
@@ -554,7 +555,7 @@ justify-content: center;
 
 align-items: center;
 
-font-size: 25px;
+;;;;;;;;;;;;font-size: 33px;;;;;;;;;;;;;
 
 color: #fff;
 
@@ -692,7 +693,7 @@ top: 50%;
 
 .stay_us{
 
-padding: 48px 0;
+padding: 62px 0;
 
 background-image: url(../images/form_bg.png);
 
@@ -738,8 +739,7 @@ width: 35%;
 
 margin: auto;
 }
-.form_wrapper form{
-}
+.form_wrapper form{margin-bottom: 20px;}
 .form_wrapper form input{
 width: 100%;
 background: transparent;
@@ -747,6 +747,7 @@ border: none;border: 1px solid #999999;
 margin-bottom: 5px;
 padding: 10px;
 border-radius: 3px;
+font-family: 'Lato', sans-serif;
 } 
 .form_wrapper form  textarea{
 
@@ -763,6 +764,7 @@ margin-bottom: 10px;
 padding: 10px;
 
 border-radius: 3px;
+font-family: 'Lato', sans-serif;
 } 
 .subscribe{
 
@@ -781,27 +783,42 @@ display: flex;
 .subscribe input[type="checkbox"]{
 
 width: auto;
+
+height: 17px;
 }
 .subscribe input[type="submit"]{
 
 color: #fff;
 
-padding: 5px 25px;
+padding: 7px 31px;
 
 border-radius: 3px;
 
+font-family: 'Lato', sans-serif;
+
 border-color: #15a4fa;
+
+transition: 0.4s all ease-in-out;
+
+cursor: pointer;
+}
+.subscribe input[type="submit"]:hover{
+    background-color: #15a4fa;
+    opacity: .8;
+    
 }
 
 .subscribe p{
 
 display: inline-block;
 
-margin-left: 10px;
+margin-left: 11px;
 
 color: #fff;
 
-font-size: 14px;
+font-size: 13px;
+
+font-family: 'Lato', sans-serif;
 }
 
 
